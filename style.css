@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+
+
+h1,
+p,
+button{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+}
+
+h1 {
+  font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 800;
+}
+
+.img {
+    text-align: center;
+    border: 5px solid #ffffff;
+    max-width: 75em;
+}
+
+#description {
+  font-weight: 300;
+  font-size: 1.3em;
+  line-height: 1.6;
+  margin: 10px;
+  letter-spacing: normal;
+}
+
+#footer-txt {
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  font-size: 0.9em;
+}
+
+.overview {
+  font-size: 1.8em;
+  font-weight: 600;
+  font-family: 'Lato';
+}
+p {
+  font-size: 1.1em;
+  font-weight: 300;
+  letter-spacing: 2px;
+
+}
+
+.header {
+  width: 100%;
+  padding:60px 0;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+.event-image {
+  max-width: 960px
+  max-height: 540px
+}
+
+.btn-bgstroke {
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 30px;
+  color: white;
+  background-color: none;
+  text-decoration: none;
+}
+
+.btn-bgstroke:hover {
+  background-color: white;
+  color: #33cccc;
+}
